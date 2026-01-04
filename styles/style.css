@@ -1,0 +1,28 @@
+/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  width: 1024px;
+  height: 100vh;
+  background-color: rgb(0, 0, 121);
+  /* background-image: url("simages\cover-image-dark.png"); */
+}
+
+.title {
+
+}
+
+.header-text {
+  
+}
