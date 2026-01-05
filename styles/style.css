@@ -357,12 +357,20 @@ a {
 @media (width <= 768px) and (height <= 1024) {
   .header {
   display: grid;
-  grid-template-rows: 319px 243px 1fr;
+  grid-template-rows: 500px 243px 1fr;
   width: 768px;
   height: 1024px;
   margin-bottom: 28px;
   background-color: rgb(0, 0, 95);
   /* background-image: url("C:\Users\User\Desktop\slozhno-sosredotochitsya-ad-main\images\cover-image-dark.png"); */
+}
+
+.top-line-saita {
+  margin-top: 18px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  /* border: 1px red solid; */
 }
 }
 
