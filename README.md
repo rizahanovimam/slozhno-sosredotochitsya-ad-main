@@ -1,1 +1,1 @@
-https://github.com/rizahanovimam/slozhno-sosredotochitsya-ad-main
+https://github.com/rizahanovimam/slozhno-sosredotochitsya-ad
