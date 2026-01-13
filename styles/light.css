@@ -9,8 +9,83 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --fon-saita: rgb(255, 241, 249);
+  --color-head-title: rgba(255, 194, 230, 1);
+  --color-head-title-shadow: rgba(255, 141, 203, 1);
+  --color-text: rgba(53, 52, 48, 1);
+  --fon-pod-text: rgba(255, 141, 203, 1);
 }
 
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
+  
+}
+
+a {
+  text-shadow: 2px 2px 0 rgba(255, 0, 112, 1);
+}
+
+/*----------------------- ШАПКА САЙТА ----------------------- */
+
+.header {
+  background-color: rgb(0, 0, 95);
+  /* background-image: url("C:\Users\User\Desktop\slozhno-sosredotochitsya-ad-main\images\cover-image-dark.png"); */
+}
+
+.header__theme-menu-button {
+  color: rgba(255, 0, 112, 1);
+}
+
+/* НАЛАДИТЬ РЕЖИМЫ */
+.header__theme-menu-button:active {
+  border: 1px solid rgba(255, 0, 112, 1);
+}
+.header__theme-menu-button.header__theme-menu-button:hover {
+  border-bottom: 1px solid rgba(255, 0, 112, 0,4);
+}
+.header__theme-menu-button:focus {
+  border: none;
+}
+.header__theme-menu-button:focus-visible {
+  border: 1px solid rgba(255, 0, 112, 1);
+}
+/* ------ */
+
+.title {
+  color: rgba(219, 0, 255, 1);
+  text-shadow: 5px 5px 0 rgba(255, 0, 112, 1);
+}
+
+.header-text {
+  background-color: rgba(255, 0, 112, 1);
+  color: rgba(0, 0, 40, 1);
+}
+
+/*----------------------- ТЕЛО САЙТА ----------------------- */
+
+.red-title-conteiner{
+  color: rgba(255, 0, 112, 1);
+}
+
+.black-title-conteiner{
+  background-color: rgba(255, 0, 112, 1);
+  color: rgba(0, 0, 40, 1);
+}
+
+.cntnr_text {
+  color: rgba(241, 178, 206, 1);
+}
+
+/* ----- */
+
+.black-title-conteiner_no_bold {
+  background-color: rgba(255, 0, 112, 1);
+  color: rgba(0, 0, 40, 1);
+}
+ 
+/*----------------------- ПОДВАЛ САЙТА ----------------------- */
+
+.footer-text {
+  color: rgba(219, 0, 255, 1);
+  text-shadow: 2px 2px 0 rgba(255, 0, 112, 1);
 }
